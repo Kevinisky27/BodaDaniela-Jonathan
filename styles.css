@@ -389,3 +389,144 @@ body {
     align-items: center;
   }
 }
+
+@media (max-width: 768px) {
+
+  /* BODY */
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* HERO */
+  .hero {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .overlay {
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+
+  /* TITULO */
+  .title {
+    font-size: 2.5em;
+    letter-spacing: 1px;
+  }
+
+  .frase {
+    font-size: 1em;
+    max-width: 100%;
+  }
+
+  .date {
+    font-size: 1.5rem;
+  }
+
+  /* COUNTDOWN */
+  .countdown {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .countdown div {
+    font-size: 1em;
+    padding: 10px 12px;
+  }
+
+  /* INVITACIÓN */
+  .invitation {
+    padding: 80px 15px;
+  }
+
+  .card {
+    padding: 40px 20px;
+  }
+
+  .names {
+    font-size: 2.5em;
+  }
+
+  .invite-text {
+    font-size: 1em;
+  }
+
+  /* SECCIONES */
+  .section-title {
+    font-size: 2.2em;
+  }
+
+  /* EVENTOS */
+  .event {
+    padding: 80px 15px;
+  }
+
+  .event-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event-card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  /* TIMELINE */
+  .timeline {
+    width: 100%;
+    margin: 80px auto;
+  }
+
+  .step {
+    width: 100%;
+    left: 0 !important;
+    margin-bottom: 50px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .text h2 {
+    font-size: 1.8em;
+  }
+
+  /* IMÁGENES */
+  .content img {
+    border-radius: 15px;
+  }
+
+  /* PALETA */
+  .color {
+    width: 35px;
+    height: 35px;
+  }
+
+  /* MAPS */
+  .maps-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn-map {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn-whatsapp {
+    width: 100%;
+    padding: 14px;
+  }
+
+  /* GIFTS */
+  .gifts {
+    padding: 80px 15px;
+  }
+
+  /* RSVP */
+  .rsvp {
+    padding: 60px 15px;
+  }
+
+}
